@@ -6,5 +6,21 @@
 </head>
 <body>
 <h1>CLient Page</h1>
+<label>From</label><input type="text" id="from"><br>
+<label>Message</label><input type="text" id="myTxt"/>
+<button onclick="emitEmail()">Click Me</button>
+
+<br>
+<ul id="messages">
+
+</ul>
+
+<script src="/socket.io/socket.io.js">
+    //socket.io.js is loaded automatically by server
+</script>
+
+<script src="js/index.js">
+
+</script>
 </body>
 </html>
